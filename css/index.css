@@ -1,0 +1,41 @@
+/*I affirm that all code given below was written solely by me, Sparsh Rawlani, and that any help I received adhered to
+the rules stated for this exam.*/
+
+
+body {
+	display: flex;
+	justify-content: center;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+}
+
+.grid-row {
+  display: flex;
+}
+
+.colored-square {
+  position:relative;
+  top: 270px;
+  left: -10em;
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	border: 1px solid black;
+	margin: 0px;
+}
+
+.resources{
+	position: fixed;
+	font-weight: bold;
+	font-size: 30pt;
+	left: 40em;
+	border-color: black;
+}
+
+.resources:hover{
+	transform: scale(1.2);
+	background-color: lightgreen;
+}
